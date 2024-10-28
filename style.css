@@ -1,0 +1,14 @@
+#margen{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+#y-title {
+    background-color: #f7e191;
+}
+
+#g-question{
+    background-color: #dedede;
+    /* border-top: solid;
+    border-bottom: solid; */
+}
