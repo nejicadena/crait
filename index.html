@@ -6,6 +6,7 @@
     <title>Formulario Ilusión Laboral</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div id='margen'class="container mt-5">
@@ -455,11 +456,12 @@
 
             <!-- Botón de envío -->
             <div class="form-group text-center mt-4">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary" onclick="sendEmail()">Enviar</button>
             </div>
 
         </form>
     </div>
+    <script src="email.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
     <script src="app.js"></script>
