@@ -90,6 +90,7 @@ const firebaseConfig = {
     .then(() => {
       // El documento se creó correctamente
       console.log('Respuesta enviada correctamente');
+      window.location = "agradecimiento.html";
       // Puedes mostrar un mensaje de éxito al usuario
     })
     .catch((error) => {
@@ -98,4 +99,3 @@ const firebaseConfig = {
       // Puedes mostrar un mensaje de error al usuario
     });
   });
-  
